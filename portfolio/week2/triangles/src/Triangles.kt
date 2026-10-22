@@ -3,9 +3,8 @@
 
 import kotlin.math.sqrt
 
-typealias Triangle = Triple<Double,Double,Double>
+typealias Triangle = Triple<Double, Double, Double>
 
-// Add isValidTriangle() and triangleArea() functions here
 fun isValidTriangle(triangle: Triangle): Boolean {
     val (a, b, c) = triangle
     return a < b + c && b < a + c && c < a + b

@@ -1,4 +1,4 @@
-# Triangles
+D# Triangles
 
 Copy the file `Triangles.kt` from your Week 2 solution into the directory
 `triangles/src`. This will give you most of the code you need for this part
