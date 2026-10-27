@@ -1,4 +1,3 @@
-// Task 7.7.1: statistics functions
 fun median(values: List<Double>): Double {
     if (values.isEmpty()) {
         throw IllegalArgumentException("Median is undefined for an empty list")
